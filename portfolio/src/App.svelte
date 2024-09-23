@@ -7,15 +7,16 @@
   import ProjectHeader from './lib/ProjectHeader.svelte';
   import ProjectDescription from './lib/ProjectDescription.svelte';
 
-  import { favouriteTechStackSkillGroup } from './lib/FavouriteTechStackSkillGroup';
-  import { basicKnowledgeSkillGroup } from './lib/BasicKnowledgeSkillGroup';
-  import { otherSkillGroup } from './lib/OtherSkillGroup';
-  import { youtubeLinksImages } from './lib/YoutubeLinksImages';
-
   import githubIcon from './assets/Skills/github.svg';
   import linkedinIcon from './assets/linkedin.svg';
   import youtubeIcon from './assets/youtube.svg';
   import myPhoto from './assets/Bartłomiej_Umiński_CV.jpg';
+
+  import { favouriteTechStackSkillGroup } from './lib/FavouriteTechStackSkillGroup';
+  import { basicKnowledgeSkillGroup } from './lib/BasicKnowledgeSkillGroup';
+  import { otherSkillGroup } from './lib/OtherSkillGroup';
+  import { youtubeLinksImages } from './lib/YoutubeLinksImages';
+  import { freakFightsFanImages } from './lib/FreakFightsFanImages';
 
   let youtubeLinksProjectDescription =
     'I achieved 8th place in the "100 Commits" competition organized by DevMentors. Over 100 days, I developed the "YoutubeLinks" application, which allows users to create playlists from YouTube links and download those playlists as MP3 and MP4 files. I used my favourite tech stack to create this project - C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture.';
@@ -90,8 +91,7 @@
               iconPath={githubIcon}
               iconAlt="Github Image" />
           </ProjectHeader>
-          <ImageSlider images={[]} />
-          <!-- add fff images -->
+          <ImageSlider images={freakFightsFanImages} />
           <ProjectDescription description={freakFightsFanProjectDescription} />
         </div>
       </section>

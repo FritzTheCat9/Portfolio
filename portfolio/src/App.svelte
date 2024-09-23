@@ -6,6 +6,7 @@
   import ImageSlider from './lib/ImageSlider.svelte';
   import ProjectHeader from './lib/ProjectHeader.svelte';
   import ProjectDescription from './lib/ProjectDescription.svelte';
+  import Timeline from './lib/Timeline.svelte';
 
   import githubIcon from './assets/Skills/github.svg';
   import linkedinIcon from './assets/linkedin.svg';
@@ -17,6 +18,7 @@
   import { otherSkillGroup } from './lib/OtherSkillGroup';
   import { youtubeLinksImages } from './lib/YoutubeLinksImages';
   import { freakFightsFanImages } from './lib/FreakFightsFanImages';
+  import { events } from './lib/TimelineEvent';
 
   let youtubeLinksProjectDescription =
     'I achieved 8th place in the "100 Commits" competition organized by DevMentors. Over 100 days, I developed the "YoutubeLinks" application, which allows users to create playlists from YouTube links and download those playlists as MP3 and MP4 files. I used my favourite tech stack to create this project - C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture.';
@@ -81,6 +83,7 @@
               iconPath={youtubeIcon}
               iconAlt="Youtube Image" />
           </ProjectHeader>
+          <!-- add fade animation  -->
           <ImageSlider images={youtubeLinksImages} />
           <ProjectDescription description={youtubeLinksProjectDescription} />
           <!-- used technologies - coś takiego jak skill group ale jakoś w liście z nazwami i mniejsze -->
@@ -98,9 +101,8 @@
       <section id="experience">
         <div class="bg-gray-100 p-12">
           <SectionHeader name="Experience" />
-          <p>Engineer's degree in Computer Science</p>
-          <p>Bialystok University of Technology</p>
-          <!-- pb logo image -->
+          <!-- fix padding -->
+          <Timeline {events} />
         </div>
       </section>
       <section id="skills">

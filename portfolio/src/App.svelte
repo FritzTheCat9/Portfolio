@@ -36,7 +36,8 @@
         <NavLink href="#experience" text="Experience" />
         <NavLink href="#skills" text="Skills" />
         <NavLink href="#contact" text="Contact" />
-        <!-- download resume button -->
+        <!-- download resume button (without phone number and email!!!) -->
+        <!-- group files in lib folder (do folder for components and .ts or do feature folders) -->
       </nav>
       <section id="info">
         <div class="flex flex-col-reverse md:flex-row items-center bg-gray-100 p-12">
@@ -101,7 +102,7 @@
       <section id="experience">
         <div class="bg-gray-100 p-12">
           <SectionHeader name="Experience" />
-          <!-- fix padding -->
+          <!-- fix padding (to big) -->
           <Timeline {events} />
         </div>
       </section>

@@ -43,7 +43,7 @@
         <div class="flex flex-col-reverse md:flex-row items-center bg-gray-100 p-12">
           <SectionHeader name="Info" hidden />
           <div class="text-center md:text-left">
-            <p class="text-2xl font-bold mb-2">Bartłomiej Umiński</p>
+            <p class="text-2xl font-bold mb-2">Bartłomiej Umiński TEST</p>
             <p class="text-xl mb-4 italic">Full Stack .NET Developer</p>
             <p class="mb-6 max-w-md text-justify">
               I am a hard-working programmer. I am able to create Full Stack applications in .NET

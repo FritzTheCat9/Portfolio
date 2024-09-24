@@ -32,8 +32,7 @@
         </div>
 
         <!-- TimelineEvent -->
-        <div
-          class={`lg:${index % 2 === 0 ? 'mr-auto' : 'ml-auto'} lg:${index % 2 === 0 ? 'ml-12' : 'mr-12'}`}>
+        <div class={`${index % 2 === 0 ? 'lg:mr-auto lg:ml-4' : 'lg:ml-auto lg:mr-4'}`}>
           <div class="flex items-center flex-col">
             <img src={event.image} alt={event.company} class="h-20 mb-2" />
             <h3 class="text-lg text-center font-semibold text-gray-700">{event.company}</h3>

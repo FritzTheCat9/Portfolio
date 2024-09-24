@@ -103,6 +103,7 @@
         <div class="bg-gray-100 p-12">
           <SectionHeader name="Experience" />
           <!-- fix padding (to big) -->
+          <!-- test  -->
           <Timeline {events} />
         </div>
       </section>

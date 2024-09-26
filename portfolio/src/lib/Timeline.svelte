@@ -18,7 +18,7 @@
   }
 </script>
 
-<div class="relative m-16">
+<div class="relative mt-4">
   {#if events.length}
     <!-- Line -->
     <div class="lg:absolute lg:left-1/2 lg:w-2 lg:h-full lg:bg-purple-500 lg:-translate-x-1/2">
@@ -34,7 +34,7 @@
         <!-- TimelineEvent -->
         <div class={`${index % 2 === 0 ? 'lg:mr-auto lg:ml-4' : 'lg:ml-auto lg:mr-4'}`}>
           <div class="flex items-center flex-col">
-            <img src={event.image} alt={event.company} class="h-20 mb-2" />
+            <img src={event.image} alt={event.company} class="h-20 mb-2 object-contain" />
             <h3 class="text-lg text-center font-semibold text-gray-700">{event.company}</h3>
             <p class="text-gray-600 text-center">
               {formatDateRange(event.dateFrom, event.dateTo)}

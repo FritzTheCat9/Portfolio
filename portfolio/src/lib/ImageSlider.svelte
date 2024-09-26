@@ -33,7 +33,7 @@
       {#each images as _, index}
         <button
           aria-label="Slider Image Button"
-          class="w-4 h-4 rounded-full bg-gray-500"
+          class="w-2 md:w-3 lg:w-4 h-2 md:h-3 lg:h-4 rounded-full bg-gray-500"
           class:bg-purple-500={index === currentIndex}
           onclick={() => (currentIndex = index)}>
         </button>

@@ -6,6 +6,6 @@
   let { description }: Props = $props();
 </script>
 
-<p class="mb-4 mt-4 text-justify">
+<h2 class="mb-4 mt-4 text-justify">
   {description}
-</p>
+</h2>

@@ -7,6 +7,6 @@
   let { name, hidden = false }: Props = $props();
 </script>
 
-<h2 class="text-center" {hidden}>
-  <p class="font-medium text-3xl">{name}</p>
-</h2>
+<div class="text-center" {hidden}>
+  <h1 class="font-medium text-3xl">{name}</h1>
+</div>

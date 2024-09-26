@@ -8,5 +8,5 @@
   {#if iconPath != undefined && iconAlt != undefined}
     <img class="w-20 h-20 object-contain" src={iconPath} alt={iconAlt} />
   {/if}
-  <p class="text-center mt-2">{name}</p>
+  <h2 class="text-center mt-2">{name}</h2>
 </div>

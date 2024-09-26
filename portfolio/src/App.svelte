@@ -43,13 +43,13 @@
         <div class="flex flex-col-reverse md:flex-row items-center bg-gray-100 p-4 lg:px-12">
           <SectionHeader name="Info" hidden />
           <div class="text-center md:text-left">
-            <p class="text-2xl font-bold mb-2">Bartłomiej Umiński</p>
-            <p class="text-xl mb-4 italic">Full Stack .NET Developer</p>
-            <p class="mb-6 max-w-md text-justify">
+            <h1 class="text-2xl font-bold mb-2">Bartłomiej Umiński</h1>
+            <h1 class="text-xl mb-4 italic">Full Stack .NET Developer</h1>
+            <h2 class="mb-6 max-w-md text-justify">
               I am a hard-working programmer. I am able to create Full Stack applications in .NET
               technology. I pursue my goals, systematically, one step at a time. I believe in the
               importance of constant work on myself and my skills.
-            </p>
+            </h2>
             <div class="flex justify-center md:justify-start space-x-4">
               <SocialMediaIcon
                 href="https://github.com/FritzTheCat9"
@@ -120,6 +120,7 @@
       <section id="contact">
         <div class="bg-gray-100 p-4 lg:px-12">
           <SectionHeader name="Contact" />
+          <!-- add contact form with email sending to me (env variable) -->
         </div>
       </section>
     </div>

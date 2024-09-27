@@ -4,14 +4,6 @@ My portfolio website, built using Svelte 5, TypeScript, JavaScript, Tailwind CSS
 
 ## Deploy to Github Pages
 
-Deploy command:
-
 ```
 npm run deploy
-```
-
-Update custom domain in GitHub Pages configuration:
-
-```
-bartlomiejuminski.pl
 ```

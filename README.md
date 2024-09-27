@@ -4,11 +4,9 @@ My portfolio website, built using Svelte 5, TypeScript, JavaScript, Tailwind CSS
 
 ## Deploy to Github Pages
 
-Deploy commands:
+Deploy command:
 
 ```
-npm run dev
-npm run build
 npm run deploy
 ```
 

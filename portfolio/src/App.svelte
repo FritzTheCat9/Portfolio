@@ -8,6 +8,7 @@
   import ProjectDescription from './lib/ProjectDescription.svelte';
   import ProjectLinks from './lib/ProjectLinks.svelte';
   import Timeline from './lib/Timeline.svelte';
+  import DownloadCVButton from './lib/DownloadCVButton.svelte';
 
   import githubIcon from './assets/Skills/github.svg';
   import linkedinIcon from './assets/linkedin.svg';
@@ -37,14 +38,14 @@
         <NavLink href="#experience" text="Experience" />
         <NavLink href="#skills" text="Skills" />
         <NavLink href="#contact" text="Contact" />
-        <!-- download resume button (without phone number and email!!!) -->
+        <DownloadCVButton />
       </nav>
       <section id="info">
         <div class="flex flex-col-reverse md:flex-row items-center bg-gray-100 p-4 lg:px-12">
           <SectionHeader name="Info" hidden />
           <div class="text-center md:text-left">
             <h1 class="text-2xl font-bold mb-2">Bartłomiej Umiński</h1>
-            <h1 class="text-xl mb-4 italic">Full Stack .NET Developer</h1>
+            <h1 class="text-xl mb-4 italic">Software Engineer</h1>
             <h2 class="mb-6 max-w-md text-justify">
               I am a hard-working programmer. I am able to create Full Stack applications in .NET
               technology. I pursue my goals, systematically, one step at a time. I believe in the
@@ -105,6 +106,7 @@
           <Timeline {events} />
         </div>
       </section>
+      <!-- section with completed courses -->
       <section id="skills">
         <div class="bg-gray-200 p-4 lg:px-12">
           <SectionHeader name="Skills" />

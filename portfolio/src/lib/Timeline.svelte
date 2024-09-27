@@ -35,11 +35,12 @@
         <div class={`${index % 2 === 0 ? 'lg:mr-auto lg:ml-4' : 'lg:ml-auto lg:mr-4'}`}>
           <div class="flex items-center flex-col">
             <img src={event.image} alt={event.company} class="h-20 mb-2 object-contain" />
-            <h1 class="text-lg text-center font-semibold text-gray-700">{event.company}</h1>
-            <p class="text-gray-600 text-center">
+            <h1 class="text-lg text-center font-bold">{event.company}</h1>
+            <h1 class="text-md text-center font-semibold text-gray-800 italic">{event.position}</h1>
+            <p class="text-center text-gray-700">
               {formatDateRange(event.dateFrom, event.dateTo)}
             </p>
-            <h2 class="text-gray-500 text-center max-w-xs">{event.description}</h2>
+            <h2 class="text-center text-gray-600 max-w-xs">{event.description}</h2>
           </div>
         </div>
       </div>

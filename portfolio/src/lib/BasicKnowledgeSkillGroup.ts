@@ -29,7 +29,7 @@ export const basicKnowledgeSkillGroup: SkillGroupProps = {
     { name: 'React', iconPath: reactImage, iconAlt: 'React Icon' },
     { name: 'HTML', iconPath: htmlImage, iconAlt: 'HTML Icon' },
     { name: 'CSS', iconPath: cssImage, iconAlt: 'CSS Icon' },
-    { name: 'Tailwindcss', iconPath: tailwindImage, iconAlt: 'Tailwindcss Icon' },
+    { name: 'Tailwind CSS', iconPath: tailwindImage, iconAlt: 'Tailwind CSS Icon' },
     { name: 'C++', iconPath: cppImage, iconAlt: 'C++ Icon' },
     { name: 'C', iconPath: cImage, iconAlt: 'C Icon' },
   ],

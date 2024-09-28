@@ -25,7 +25,7 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: "/"
+          BASE_PATH: "/Portfolio"
         run: |
           cd portfolio
           npm run build

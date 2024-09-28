@@ -13,24 +13,24 @@ import sqlImage from '../assets/Skills/SQL.png';
 import angularImage from '../assets/Skills/Angular.png';
 import reactImage from '../assets/Skills/React.png';
 import azureImage from '../assets/Skills/Azure.png';
-import tailwindImage from '../assets/Skills/tailwind.png';
+import tailwindImage from '../assets/Skills/Tailwind.png';
 
 export const basicKnowledgeSkillGroup: SkillGroupProps = {
-	name: 'Basic knowledge',
-	skills: [
-		{ name: 'SQL', iconPath: sqlImage, iconAlt: 'SQL Icon' },
-		{ name: 'Docker', iconPath: dockerImage, iconAlt: 'Docker Icon' },
-		{ name: 'Azure', iconPath: azureImage, iconAlt: 'Azure Icon' },
-		{ name: 'JavaScript', iconPath: javaScriptImage, iconAlt: 'JavaScript Icon' },
-		{ name: 'TypeScript', iconPath: typeScriptImage, iconAlt: 'TypeScript Icon' },
-		{ name: 'Svelte', iconPath: svelteImage, iconAlt: 'Svelte Icon' },
-		{ name: 'Vue', iconPath: vueImage, iconAlt: 'Vue Icon' },
-		{ name: 'Angular', iconPath: angularImage, iconAlt: 'Angular Icon' },
-		{ name: 'React', iconPath: reactImage, iconAlt: 'React Icon' },
-		{ name: 'HTML', iconPath: htmlImage, iconAlt: 'HTML Icon' },
-		{ name: 'CSS', iconPath: cssImage, iconAlt: 'CSS Icon' },
-		{ name: 'Tailwind CSS', iconPath: tailwindImage, iconAlt: 'Tailwind CSS Icon' },
-		{ name: 'C++', iconPath: cppImage, iconAlt: 'C++ Icon' },
-		{ name: 'C', iconPath: cImage, iconAlt: 'C Icon' }
-	]
+  name: 'Basic knowledge',
+  skills: [
+    { name: 'SQL', iconPath: sqlImage, iconAlt: 'SQL Icon' },
+    { name: 'Docker', iconPath: dockerImage, iconAlt: 'Docker Icon' },
+    { name: 'Azure', iconPath: azureImage, iconAlt: 'Azure Icon' },
+    { name: 'JavaScript', iconPath: javaScriptImage, iconAlt: 'JavaScript Icon' },
+    { name: 'TypeScript', iconPath: typeScriptImage, iconAlt: 'TypeScript Icon' },
+    { name: 'Svelte', iconPath: svelteImage, iconAlt: 'Svelte Icon' },
+    { name: 'Vue', iconPath: vueImage, iconAlt: 'Vue Icon' },
+    { name: 'Angular', iconPath: angularImage, iconAlt: 'Angular Icon' },
+    { name: 'React', iconPath: reactImage, iconAlt: 'React Icon' },
+    { name: 'HTML', iconPath: htmlImage, iconAlt: 'HTML Icon' },
+    { name: 'CSS', iconPath: cssImage, iconAlt: 'CSS Icon' },
+    { name: 'Tailwind CSS', iconPath: tailwindImage, iconAlt: 'Tailwind CSS Icon' },
+    { name: 'C++', iconPath: cppImage, iconAlt: 'C++ Icon' },
+    { name: 'C', iconPath: cImage, iconAlt: 'C Icon' },
+  ],
 };

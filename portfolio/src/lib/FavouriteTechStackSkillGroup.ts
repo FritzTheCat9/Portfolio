@@ -1,13 +1,13 @@
 import type { SkillGroupProps } from './SkillGroupProps';
 
-import cSharpImage from '../assets/Skills/CSharp.png';
-import dotnetImage from '../assets/Skills/Dotnet.png';
-import mudblazorImage from '../assets/Skills/MudBlazor.png';
-import blazorImage from '../assets/Skills/Blazor.png';
-import dotnetCoreImage from '../assets/Skills/DotnetCore.png';
-import efCoreImage from '../assets/Skills/EFCore.png';
-import vsaImage from '../assets/Skills/VSA.png';
-import githubIcon from '../assets/Skills/github.svg';
+import cSharpImage from '../public/Skills/CSharp.png';
+import dotnetImage from '../public/Skills/Dotnet.png';
+import mudblazorImage from '../public/Skills/MudBlazor.png';
+import blazorImage from '../public/Skills/Blazor.png';
+import dotnetCoreImage from '../public/Skills/DotnetCore.png';
+import efCoreImage from '../public/Skills/EFCore.png';
+import vsaImage from '../public/Skills/VSA.png';
+import githubIcon from '../public/Skills/github.svg';
 
 export const favouriteTechStackSkillGroup: SkillGroupProps = {
   name: 'Favourite tech stack',

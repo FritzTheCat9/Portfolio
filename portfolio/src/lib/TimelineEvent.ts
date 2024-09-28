@@ -1,5 +1,5 @@
-import pbLogo from '../assets/PB.png';
-import fabrityLogo from '../assets/FABRITY.png';
+import pbLogo from '../public/PB.png';
+import fabrityLogo from '../public/FABRITY.png';
 
 export interface TimelineEvent {
   image: string;

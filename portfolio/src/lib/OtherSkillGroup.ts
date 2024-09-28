@@ -1,8 +1,8 @@
 import type { SkillGroupProps } from './SkillGroupProps';
 
-import microsoftOfficeImage from '../assets/Skills/MicrosoftOffice.png';
-import msTeamsImage from '../assets/Skills/MSTeams.png';
-import carImage from '../assets/Skills/car.png';
+import microsoftOfficeImage from '../public/Skills/MicrosoftOffice.png';
+import msTeamsImage from '../public/Skills/MSTeams.png';
+import carImage from '../public/Skills/car.png';
 
 export const otherSkillGroup: SkillGroupProps = {
   name: 'Other',

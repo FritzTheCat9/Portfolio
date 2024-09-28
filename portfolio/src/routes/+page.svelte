@@ -10,10 +10,10 @@
   import Timeline from '../lib/Timeline.svelte';
   import DownloadCVButton from '../lib/DownloadCVButton.svelte';
 
-  import githubIcon from '../assets/Skills/github.svg';
-  import linkedinIcon from '../assets/linkedin.svg';
-  import youtubeIcon from '../assets/youtube.svg';
-  import myPhoto from '../assets/Bartłomiej_Umiński_CV.jpg';
+  import githubIcon from '../public/Skills/github.svg';
+  import linkedinIcon from '../public/linkedin.svg';
+  import youtubeIcon from '../public/youtube.svg';
+  import myPhoto from '../public/Bartłomiej_Umiński_CV.jpg';
 
   import { favouriteTechStackSkillGroup } from '../lib/FavouriteTechStackSkillGroup';
   import { basicKnowledgeSkillGroup } from '../lib/BasicKnowledgeSkillGroup';
@@ -33,7 +33,6 @@
     <div class="max-w-screen-lg">
       <nav
         class="bg-gray-200 p-8 flex flex-col items-center md:flex-row md:justify-end md:space-x-8 space-y-2 md:space-y-0">
-        TEST 2
         <NavLink href="#info" text="Info" />
         <NavLink href="#projects" text="Projects" />
         <NavLink href="#experience" text="Experience" />

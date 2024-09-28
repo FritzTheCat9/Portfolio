@@ -1,5 +1,5 @@
 <script lang="ts">
-  import cvPdfFile from './../assets/Bartłomiej_Umiński_CV.pdf';
+  import cvPdfFile from './../public/Bartłomiej_Umiński_CV.pdf';
 
   function downloadCV() {
     const a = document.createElement('a');

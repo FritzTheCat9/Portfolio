@@ -1,19 +1,19 @@
 import type { SkillGroupProps } from './SkillGroupProps';
 
-import svelteImage from '../assets/Skills/Svelte.png';
-import javaScriptImage from '../assets/Skills/JavaScript.png';
-import typeScriptImage from '../assets/Skills/TypeScript.png';
-import vueImage from '../assets/Skills/Vue.png';
-import cssImage from '../assets/Skills/CSS.png';
-import cImage from '../assets/Skills/C.png';
-import cppImage from '../assets/Skills/C++.png';
-import dockerImage from '../assets/Skills/Docker.png';
-import htmlImage from '../assets/Skills/HTML.png';
-import sqlImage from '../assets/Skills/SQL.png';
-import angularImage from '../assets/Skills/Angular.png';
-import reactImage from '../assets/Skills/React.png';
-import azureImage from '../assets/Skills/Azure.png';
-import tailwindImage from '../assets/Skills/Tailwind.png';
+import svelteImage from '../public/Skills/Svelte.png';
+import javaScriptImage from '../public/Skills/JavaScript.png';
+import typeScriptImage from '../public/Skills/TypeScript.png';
+import vueImage from '../public/Skills/Vue.png';
+import cssImage from '../public/Skills/CSS.png';
+import cImage from '../public/Skills/C.png';
+import cppImage from '../public/Skills/C++.png';
+import dockerImage from '../public/Skills/Docker.png';
+import htmlImage from '../public/Skills/HTML.png';
+import sqlImage from '../public/Skills/SQL.png';
+import angularImage from '../public/Skills/Angular.png';
+import reactImage from '../public/Skills/React.png';
+import azureImage from '../public/Skills/Azure.png';
+import tailwindImage from '../public/Skills/Tailwind.png';
 
 export const basicKnowledgeSkillGroup: SkillGroupProps = {
   name: 'Basic knowledge',

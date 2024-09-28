@@ -32,7 +32,7 @@
   <div class="bg-gray-400 flex justify-center">
     <div class="max-w-screen-lg">
       <nav
-        class="bg-gray-200 p-8 flex flex-col items-center sm:flex-row sm:justify-end sm:space-x-8 space-y-2 sm:space-y-0">
+        class="bg-gray-200 p-8 flex flex-col items-center md:flex-row md:justify-end md:space-x-8 space-y-2 md:space-y-0">
         <NavLink href="#info" text="Info" />
         <NavLink href="#projects" text="Projects" />
         <NavLink href="#experience" text="Experience" />
@@ -107,6 +107,8 @@
         </div>
       </section>
       <!-- section with completed courses -->
+      <!-- section with known languages -->
+      <!-- section with hobbies -->
       <section id="skills">
         <div class="bg-gray-200 p-4 lg:px-12">
           <SectionHeader name="Skills" />

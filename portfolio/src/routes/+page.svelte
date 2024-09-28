@@ -33,7 +33,7 @@
     <div class="max-w-screen-lg">
       <nav
         class="bg-gray-200 p-8 flex flex-col items-center md:flex-row md:justify-end md:space-x-8 space-y-2 md:space-y-0">
-        TEST
+        TEST 2
         <NavLink href="#info" text="Info" />
         <NavLink href="#projects" text="Projects" />
         <NavLink href="#experience" text="Experience" />

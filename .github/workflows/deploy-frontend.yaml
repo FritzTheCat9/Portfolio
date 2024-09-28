@@ -2,9 +2,9 @@ name: Frontend Deploy to GitHub Pages
 
 on:
   push:
-    branches: 'main'
+    branches: "main"
     paths:
-      - 'portfolio/**'
+      - "portfolio/**"
 
 jobs:
   build:
@@ -25,7 +25,7 @@ jobs:
 
       - name: Build
         env:
-          BASE_PATH: '/Portfolio'
+          BASE_PATH: "/"
         run: |
           cd portfolio
           npm run build
@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # this should match the `pages` option in your adapter-static options
-          path: 'portfolio/build/'
+          path: "portfolio/build/"
 
   deploy:
     needs: build

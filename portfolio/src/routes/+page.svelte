@@ -9,6 +9,7 @@
   import ProjectLinks from '../lib/ProjectLinks.svelte';
   import Timeline from '../lib/Timeline.svelte';
   import DownloadCVButton from '../lib/DownloadCVButton.svelte';
+  // import ContactForm from '$lib/ContactForm.svelte';
 
   import githubIcon from '../public/Skills/github.svg';
   import linkedinIcon from '../public/linkedin.svg';
@@ -26,6 +27,7 @@
     'I achieved 8th place in the "100 Commits" competition organized by DevMentors. Over 100 days, I developed the "YoutubeLinks" application, which allows users to create playlists from YouTube links and download those playlists as MP3 and MP4 files. I used my favourite tech stack to create this project - C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture.';
   let freakFightsFanProjectDescription =
     'The FreakFightsFan application contains information and statistics about federations, events, fights and fighters of freak fight federations. I created this application because I am a fan of freak fights and I wanted to practice building Full Stack applications with .NET technology. I used my favourite tech stack to create this project - C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture.';
+  let contactEmail = 'contact.bartlomiejuminski@gmail.com';
 </script>
 
 <main>
@@ -124,7 +126,14 @@
       <section id="contact">
         <div class="bg-gray-100 p-4 lg:px-12">
           <SectionHeader name="Contact" />
-          <!-- add contact form with email sending to me (env variable) -->
+          <h1 class="text-xl text-gray-600 my-4 text-center">Contact me via email:</h1>
+          <h1
+            class="text-xl text-blue-500 hover:text-blue-700 transition duration-300 text-center mb-4 italic">
+            <a href="mailto:contact.bartlomiejuminski@gmail.com">
+              {contactEmail}
+            </a>
+          </h1>
+          <!-- <ContactForm /> -->
         </div>
       </section>
     </div>

@@ -78,7 +78,7 @@
           <SectionHeader name="Projects" />
           <ProjectHeader name="YoutubeLinks" />
           <!-- add fade animation  -->
-          <ImageSlider images={youtubeLinksImages} />
+          <ImageSlider images={youtubeLinksImages} startIndex={4} />
           <ProjectDescription description={youtubeLinksProjectDescription} />
           <ProjectLinks
             ><SocialMediaIcon
@@ -92,7 +92,7 @@
           </ProjectLinks>
           <!-- used technologies - coś takiego jak skill group ale jakoś w liście z nazwami i mniejsze -->
           <ProjectHeader name="FreakFightsFan" />
-          <ImageSlider images={freakFightsFanImages} />
+          <ImageSlider images={freakFightsFanImages} startIndex={5} />
           <ProjectDescription description={freakFightsFanProjectDescription} />
           <ProjectLinks>
             <SocialMediaIcon

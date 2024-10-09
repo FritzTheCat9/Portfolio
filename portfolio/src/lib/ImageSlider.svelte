@@ -1,11 +1,12 @@
 <script lang="ts">
   interface Props {
     images: string[];
+    startIndex?: number;
   }
 
-  let { images }: Props = $props();
+  let { images, startIndex = 0 }: Props = $props();
 
-  let currentIndex = $state(0);
+  let currentIndex = $state(startIndex);
 
   function nextImage() {
     currentIndex = (currentIndex + 1) % images.length;

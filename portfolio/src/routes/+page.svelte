@@ -9,6 +9,7 @@
   import ProjectLinks from '../lib/ProjectLinks.svelte';
   import Timeline from '../lib/Timeline.svelte';
   import DownloadCVButton from '../lib/DownloadCVButton.svelte';
+  import Courses from '$lib/Courses.svelte';
   // import ContactForm from '$lib/ContactForm.svelte';
 
   import githubIcon from '../public/Skills/github.svg';
@@ -22,6 +23,7 @@
   import { youtubeLinksImages } from '../lib/YoutubeLinksImages';
   import { freakFightsFanImages } from '../lib/FreakFightsFanImages';
   import { events } from '../lib/TimelineEvent';
+  import { courses } from '../lib/CourseData';
 
   let youtubeLinksProjectDescription =
     'I achieved 8th place in the "100 Commits" competition organized by DevMentors. Over 100 days, I developed the "YoutubeLinks" application, which allows users to create playlists from YouTube links and download those playlists as MP3 and MP4 files. I used my favourite tech stack to create this project - C#, .NET, Minimal API, Blazor WebAssembly, MudBlazor, Entity Framework Core and Vertical Slices Architecture.';
@@ -36,8 +38,9 @@
       <nav
         class="bg-gray-200 p-8 flex flex-col items-center md:flex-row md:justify-end md:space-x-8 space-y-2 md:space-y-0">
         <NavLink href="#info" text="Info" />
-        <NavLink href="#projects" text="Projects" />
         <NavLink href="#experience" text="Experience" />
+        <NavLink href="#projects" text="Projects" />
+        <NavLink href="#courses" text="Courses" />
         <NavLink href="#skills" text="Skills" />
         <NavLink href="#contact" text="Contact" />
         <DownloadCVButton />
@@ -73,8 +76,14 @@
           </div>
         </div>
       </section>
-      <section id="projects">
+      <section id="experience">
         <div class="bg-gray-200 p-4 lg:px-12">
+          <SectionHeader name="Experience" />
+          <Timeline {events} />
+        </div>
+      </section>
+      <section id="projects">
+        <div class="bg-gray-100 p-4 lg:px-12">
           <SectionHeader name="Projects" />
           <ProjectHeader name="YoutubeLinks" />
           <!-- add fade animation  -->
@@ -102,17 +111,17 @@
           </ProjectLinks>
         </div>
       </section>
-      <section id="experience">
-        <div class="bg-gray-100 p-4 lg:px-12">
-          <SectionHeader name="Experience" />
-          <Timeline {events} />
+      <section id="courses">
+        <div class="bg-gray-200 p-4 lg:px-12">
+          <SectionHeader name="Courses" />
+          <Courses {courses} />
         </div>
       </section>
       <!-- section with completed courses -->
       <!-- section with known languages -->
       <!-- section with hobbies -->
       <section id="skills">
-        <div class="bg-gray-200 p-4 lg:px-12">
+        <div class="bg-gray-100 p-4 lg:px-12">
           <SectionHeader name="Skills" />
           <SkillGroup
             name={favouriteTechStackSkillGroup.name}
@@ -124,7 +133,7 @@
         </div>
       </section>
       <section id="contact">
-        <div class="bg-gray-100 p-4 lg:px-12">
+        <div class="bg-gray-200 p-4 lg:px-12">
           <SectionHeader name="Contact" />
           <h1 class="text-xl text-gray-600 my-4 text-center">Contact me via email:</h1>
           <h1

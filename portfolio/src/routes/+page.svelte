@@ -46,7 +46,7 @@
         <DownloadCVButton />
       </nav>
       <section id="info">
-        <div class="flex flex-col-reverse md:flex-row items-center bg-gray-100 p-4 lg:px-12">
+        <div class="flex flex-col-reverse md:flex-row items-center bg-gray-100 p-4 md:px-12">
           <SectionHeader name="Info" hidden />
           <div class="text-center md:text-left">
             <h1 class="text-2xl font-bold mb-2">Bartłomiej Umiński</h1>
@@ -77,13 +77,13 @@
         </div>
       </section>
       <section id="experience">
-        <div class="bg-gray-200 p-4 lg:px-12">
+        <div class="bg-gray-200 p-4 md:px-12">
           <SectionHeader name="Experience" />
           <Timeline {events} />
         </div>
       </section>
       <section id="projects">
-        <div class="bg-gray-100 p-4 lg:px-12">
+        <div class="bg-gray-100 p-4 md:px-12">
           <SectionHeader name="Projects" />
           <ProjectHeader name="YoutubeLinks" />
           <!-- add fade animation  -->
@@ -112,7 +112,7 @@
         </div>
       </section>
       <section id="courses">
-        <div class="bg-gray-200 p-4 lg:px-12">
+        <div class="bg-gray-200 p-4 md:px-12">
           <SectionHeader name="Courses" />
           <Courses {courses} />
         </div>
@@ -121,7 +121,7 @@
       <!-- section with known languages -->
       <!-- section with hobbies -->
       <section id="skills">
-        <div class="bg-gray-100 p-4 lg:px-12">
+        <div class="bg-gray-100 p-4 md:px-12">
           <SectionHeader name="Skills" />
           <SkillGroup
             name={favouriteTechStackSkillGroup.name}
@@ -133,7 +133,7 @@
         </div>
       </section>
       <section id="contact">
-        <div class="bg-gray-200 p-4 lg:px-12">
+        <div class="bg-gray-200 p-4 md:px-12">
           <SectionHeader name="Contact" />
           <h1 class="text-xl text-gray-600 my-4 text-center">Contact me via email:</h1>
           <h1

@@ -9,7 +9,7 @@
   <h2 class="text-2xl font-bold mb-4">{name}</h2>
   <div class="flex flex-wrap justify-center gap-4">
     {#each skills as skill}
-      <div class="border-4 border-gray-300 p-3 w-[200px]">
+      <div class="border-4 border-gray-300 p-3 w-[200px] rounded-lg">
         <Skill name={skill.name} iconPath={skill.iconPath} iconAlt={skill.iconAlt} />
       </div>
     {/each}

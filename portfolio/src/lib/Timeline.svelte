@@ -21,18 +21,18 @@
 <div class="relative mt-4">
   {#if events.length}
     <!-- Line -->
-    <div class="lg:absolute lg:left-1/2 lg:w-2 lg:h-full lg:bg-purple-500 lg:-translate-x-1/2">
+    <div class="md:absolute md:left-1/2 md:w-2 md:h-full md:bg-purple-500 md:-translate-x-1/2">
     </div>
 
     {#each events as event, index}
-      <div class="flex mb-10 justify-center lg:justify-start">
+      <div class="flex mb-10 justify-center md:justify-start">
         <!-- Circle -->
         <div
-          class="lg:absolute lg:left-1/2 lg:w-12 lg:h-12 lg:rounded-full lg:bg-purple-500 lg:-translate-x-1/2">
+          class="md:absolute md:left-1/2 md:w-12 md:h-12 md:rounded-full md:bg-purple-500 md:-translate-x-1/2">
         </div>
 
         <!-- TimelineEvent -->
-        <div class={`${index % 2 === 0 ? 'lg:mr-auto lg:ml-4' : 'lg:ml-auto lg:mr-4'}`}>
+        <div class={`${index % 2 === 0 ? 'md:mr-auto md:ml-4' : 'md:ml-auto md:mr-4'}`}>
           <div class="flex items-center flex-col">
             <img src={event.image} alt={event.company} class="h-20 mb-2 object-contain" />
             <h1 class="text-lg text-center font-bold">{event.company}</h1>

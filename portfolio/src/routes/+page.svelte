@@ -72,7 +72,7 @@
             </div>
           </div>
           <div class="w-48 h-48 mb-8 mx-auto p-2">
-            <img src={myPhoto} alt="Bartłomiej Umiński" />
+            <img src={myPhoto} alt="Bartłomiej Umiński" class="rounded-lg" />
           </div>
         </div>
       </section>

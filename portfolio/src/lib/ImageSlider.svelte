@@ -28,7 +28,9 @@
       <div class="w-5 h-5">❯</div>
     </button>
 
-    <img src={images[currentIndex]} alt={images[currentIndex]} />
+    <div class="flex justify-center">
+      <img src={images[currentIndex]} alt={images[currentIndex]} class="rounded-lg" />
+    </div>
 
     <div class="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
       {#each images as _, index}

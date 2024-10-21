@@ -73,7 +73,7 @@
       onclick={closeZoom}
       onkeydown={(e) => e.key === 'Enter' && closeZoom()}>
       <div
-        class="relative max-w-[85%] max-h-[85%] w-full h-full bg-black rounded-lg"
+        class="relative max-w-[90%] max-h-[90%] w-full h-full bg-black rounded-lg"
         role="button"
         aria-label="Close zoomed view"
         tabindex="0"
@@ -82,7 +82,7 @@
         <img
           src={images[currentIndex]}
           alt={images[currentIndex]}
-          class="w-full h-full object-contain" />
+          class="w-full h-full object-contain rounded-lg" />
 
         <button
           onclick={prevImage}

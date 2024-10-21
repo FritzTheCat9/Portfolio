@@ -10,6 +10,7 @@
   import Timeline from '../lib/Timeline.svelte';
   import DownloadCVButton from '../lib/DownloadCVButton.svelte';
   import Courses from '$lib/Courses.svelte';
+  import HamburgerMenu from '$lib/HamburgerMenu.svelte';
   // import ContactForm from '$lib/ContactForm.svelte';
 
   import githubIcon from '../public/Skills/github.svg';
@@ -35,20 +36,11 @@
 <main>
   <div class="bg-gray-400 flex justify-center">
     <div class="max-w-screen-lg">
-      <nav
-        class="bg-gray-200 p-8 flex flex-col items-center md:flex-row md:justify-end md:space-x-8 space-y-2 md:space-y-0">
-        <NavLink href="#info" text="Info" />
-        <NavLink href="#experience" text="Experience" />
-        <NavLink href="#projects" text="Projects" />
-        <NavLink href="#courses" text="Courses" />
-        <NavLink href="#skills" text="Skills" />
-        <NavLink href="#contact" text="Contact" />
-        <DownloadCVButton />
-      </nav>
+      <HamburgerMenu />
       <section id="info">
         <div class="flex flex-col-reverse md:flex-row items-center bg-gray-100 p-4 md:px-12">
           <SectionHeader name="Info" hidden />
-          <div class="text-center md:text-left">
+          <div class="text-center md:text-left mx-auto">
             <h1 class="text-2xl font-bold mb-2">Bartłomiej Umiński</h1>
             <h1 class="text-xl mb-4 italic">Software Engineer</h1>
             <h2 class="mb-6 max-w-md text-justify">
